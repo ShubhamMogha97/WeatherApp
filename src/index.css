@@ -1,3 +1,32 @@
 .head{
     color: red;
 }
+.weather-bg{
+    background-image: url("/Images/weatherImage.jpg");
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.heading{
+    color: black;
+    margin-top: 50px;
+    font-weight: 700;
+}
+.weather-result-box{
+    margin: auto;
+    width: 300px;
+    height: 200px;
+}
+.image-icon{
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+}
+.weather-city{
+    font-size: 35px;
+}
+.weather-temp{
+    font-size: 45px;
+    font-weight: 700;
+}
